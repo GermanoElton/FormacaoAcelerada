@@ -1,0 +1,26 @@
+<titulo> Cadastro
+
+"leia" (Nome)_Caracter
+"leia" (Endereço)_Caracter
+"leia" (Cidade)_Caracter
+"leia" (CPF)_Inteiro
+"leia" (RG)_Inteiro
+"leia" (idade)_inteiro
+"leia" (Nome do pai)_Caracter
+"leia" (nome da mãe)_Caracter
+"leia" (Peso)_Reais
+"leia" (Renda bruta)_Reais
+
+"Escreva" (Nome)_Caracter
+"Escreva" (Endereço)_Caracter
+"Escreva" (Cidade)_Caracter
+"Escreva" (CPF)_Inteiro
+"Escreva" (RG)_Inteiro
+"Escreva" (idade)_inteiro
+"Escreva" (Nome do pai)_Caracter
+"Escreva" (nome da mãe)_Caracter
+"Escreva" (Peso)_Reais
+"Escreca" (Renda bruta)_Reais
+
+
+
