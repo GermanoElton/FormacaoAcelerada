@@ -1,0 +1,20 @@
+Olhando a disposição das cadeiras em Colunas e linhas
+
+    1º 2º 3º 4º 5º 6º
+
+1º  P  P  M  P  M  P
+2º  M  P  M  M  P  M
+3º  M  M  M  P  M  P
+4º  M  P  P  M  P  P
+5º  P  M  M  P  M  M
+6º  M  P  P  P  M  P
+
+Somando a quantidade de alunos por coluna
+
+ 1º 2º 3º 4º 5º 6º 
+
+ 2P 4P 2P 4P 2P 4P
+ 4M 2M 4M 2M 4M 2M
+
+Quando o Aluno da 5º coluna e 5º fileira mudou de M para P a sequencia em P 2-4-2-4-2-4  e em M 4-2-4-2-4-2
+foi quebrada, assim o professor descobriu o troca.
