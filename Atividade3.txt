@@ -1,0 +1,6 @@
+
+Nome<_ Caracter
+CPF<_ Inteiros
+Altura<_ Reais
+Endereço<_ Caracter
+
