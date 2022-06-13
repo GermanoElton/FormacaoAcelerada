@@ -1,0 +1,9 @@
+Escreva ("É terrestre?")
+leia ("resposta")
+se sim
+ Escreva ("Cabem duas pessoas?")
+ leia ("resposta")
+  se sim
+  Escreva ("É uma moto")
+  se não
+  Escreva ("É uma bicicleta")
