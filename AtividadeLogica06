@@ -1,0 +1,91 @@
+Aprovados A = 0
+Aprovados B = 0
+Aprovados C = 0
+Aprovados D = 0
+
+Repita (contador <100) faça
+Escreva ("Qual sua turma?")
+leia ("turma")
+
+se (turma = A)
+Escreva ("Qual seu nome?")
+leia ("Nome")
+Alunos A ++
+Escreva ("Qual sua nota?")
+leia ("nota A")
+   se (nota A >=7)
+   Aprovados A ++
+   Escreva (turma)
+
+se (turma = B)
+Escreva ("Qual seu nome?")
+leia ("Nome")
+Alunos B ++
+Escreva ("Qual sua nota?")
+leia ("nota B")
+   se (nota B >=7)
+   Aprovados B ++
+   Escreva (turma)
+
+se (turma = C)
+Escreva ("Qual seu nome?")
+leia ("Nome")
+Alunos C ++
+Escreva ("Qual sua nota?")
+leia ("nota C")
+   se (nota C >=7)
+   Aprovados C ++
+   Escreva (turma)
+
+se (turma = D)
+Escreva ("Qual seu nome?")
+leia ("Nome")
+Alunos D ++
+Escreva ("Qual sua nota?")
+leia ("nota D")
+   se (nota D >=7)
+   Aprovados D ++
+   Escreva (turma)
+
+fimenquanto
+
+Repita (Alunos A =0) faça
+se (nota A> MaiorNotaA) MaiorNotaA = nota A
+Alunos -1
+fimenquanto
+
+Repita (Alunos B =0) faça
+se (nota B> MaiorNotaB) MaiorNotaB = nota B
+Alunos -1
+fimenquanto
+
+Repita (Alunos C =0) faça
+se (nota C> MaiorNotaC) MaiorNotaC = nota C
+Alunos -1
+fimenquanto
+
+Repita (Alunos D =0) faça
+se (nota D> MaiorNotaD) MaiorNotaD = nota D
+Alunos -1
+fimenquanto
+
+se (MaiorNotaA < MaiorNotaB) maxima = MaiorNotaB
+senão maxima = MaiorNotaA
+se (maxima < MaiorNotaC) maxima = MaiorNotaC
+senão maxima
+se (maxima < MaiorNotaD) maxima = MaiorNotaD
+senão maxima
+
+Escreva Aprovados A + Aprovados B + Aprovados C + Aprovados D
+se Aprovados A > 0
+Escreva turma A
+se Aprovados B > 0
+Escreva turma B
+se Aprovados C > 0
+Escreva turma C
+se Aprovados D > 0
+Escreva turma D
+
+Escreva turma A MaiorNotaA, turma B MaiorNotaB, turma C MaiorNotaC, turma d MaiorNotaD,  
+
+Escreva "nome"+maxima
