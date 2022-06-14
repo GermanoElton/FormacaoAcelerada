@@ -1,6 +1,6 @@
 
 Nome<_ Caracter
-CPF<_ Inteiros
-Altura<_ Reais
+CPF<_ Inteiro
+Altura<_ Real
 Endereço<_ Caracter
 
