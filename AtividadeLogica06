@@ -1,3 +1,11 @@
+turma = Caracter
+Nome = Caracter
+nota A = Real
+nota B = Real
+nota C = Real
+nota D = Real
+
+
 Aprovados A = 0
 Aprovados B = 0
 Aprovados C = 0
