@@ -20,13 +20,15 @@ int main(int argc, char *argv[])
 {
  change = falso;
  for (i=0; i<final; i++)
- {
-   if(vetor[i]>vetor[i++]
    {
-     store = vetor[i];
-     vetor[i] = vetor[i++];
-     vetor[i++] = store;
-     change = verdadeiro;
+     if(vetor[i]>vetor[i++]
+       {
+        store = vetor[i];
+        vetor[i] = vetor[i++];
+        vetor[i++] = store;
+        change = verdadeiro;
+       }
    } \\end for
  }while(change);
-  for (i=0; i<tam; i++) printf"%d\n", vetor[i])
+ 
+  for (i=0; i<tam; i++) printf"%d\n", vetor[i]);
