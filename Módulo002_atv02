@@ -1,0 +1,22 @@
+int main(int argc, char** argc) {
+
+    int ímpar[30] = {13, 39, 21, 45, 7, 3, 19, 51, 25, 7, 43, 9, 11, 35, 27, 23, 59, 31, 15, 7, 53, 49, 41, 5, 17, 33, 29, 1, 55, 37}
+    int aux
+    
+    for(int i=0; i<29; i++){
+        for(int j=i+1; j>0; j--){
+            if(ímpar[j] < ímpar[j-1]){
+                aux = ímpar[j];
+                ímpar[j] = notas[j-1];
+                ímpar[j-1] = aux;
+            }
+            else
+                 break;
+        }      
+    }
+    
+    for(int i=0; i<30; i++)
+       cout << ímpar[i] << "  ,  ";
+    cout << endl;
+    
+    return 0;
