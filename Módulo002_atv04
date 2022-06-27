@@ -1,0 +1,16 @@
+
+a = complex(1,2)
+b = complex(3,4)
+c = complex(5,6)
+
+print(a + b + c)
+print(a - b - c)
+print(a * b * c)
+print(a / b / c)
+
+print(a.real)
+print(a.imag)
+print(b.real)
+print(b.imag)
+print(c.real)
+print(c.imag)
